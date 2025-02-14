@@ -35,9 +35,9 @@ public class Stack extends JFrame {
         contentPane.setLayout(null);
 
         // Label to show the message passed from the home screen
-        lblSelectedMessage = new JLabel(message);
-        lblSelectedMessage.setFont(new Font("Tahoma", Font.BOLD, 17));
-        lblSelectedMessage.setBounds(120, 10, 220, 30);
+        lblSelectedMessage = new JLabel("Welcome To Stack:");
+        lblSelectedMessage.setFont(new Font("Tahoma", Font.BOLD, 18));
+        lblSelectedMessage.setBounds(106, 11, 234, 29);
         contentPane.add(lblSelectedMessage);
 
         // Label for size of stack
@@ -67,7 +67,7 @@ public class Stack extends JFrame {
         // Text field to display stack contents
         txtStackDisplay = new JTextField();
         txtStackDisplay.setFont(new Font("Tahoma", Font.BOLD, 14));
-        txtStackDisplay.setBounds(20, 257, 391, 40); // Adjusted width for better visibility
+        txtStackDisplay.setBounds(20, 264, 391, 50); // Adjusted width for better visibility
         contentPane.add(txtStackDisplay);
         txtStackDisplay.setColumns(10);
         txtStackDisplay.setEditable(false); // Disable editing the display area
@@ -77,7 +77,7 @@ public class Stack extends JFrame {
         btnCreate.setFont(new Font("Tahoma", Font.BOLD, 14));
         btnCreate.setBackground(new Color(34, 139, 34)); // Green color
         btnCreate.setForeground(Color.WHITE);
-        btnCreate.setBounds(281, 72, 130, 30);
+        btnCreate.setBounds(281, 72, 130, 40);
         contentPane.add(btnCreate);
 
         // Push button
@@ -85,7 +85,7 @@ public class Stack extends JFrame {
         btnPush.setFont(new Font("Tahoma", Font.BOLD, 14));
         btnPush.setBackground(new Color(34, 139, 34)); // Green color
         btnPush.setForeground(Color.WHITE);
-        btnPush.setBounds(20, 165, 110, 30);
+        btnPush.setBounds(20, 165, 110, 40);
         contentPane.add(btnPush);
 
         // Pop button
@@ -93,7 +93,7 @@ public class Stack extends JFrame {
         btnPop.setFont(new Font("Tahoma", Font.BOLD, 14));
         btnPop.setBackground(new Color(255, 69, 0)); // Red color
         btnPop.setForeground(Color.WHITE);
-        btnPop.setBounds(160, 165, 100, 30);
+        btnPop.setBounds(160, 165, 100, 40);
         contentPane.add(btnPop);
 
         // Peek button
@@ -101,7 +101,7 @@ public class Stack extends JFrame {
         btnPeek.setFont(new Font("Tahoma", Font.BOLD, 14));
         btnPeek.setBackground(new Color(30, 144, 255)); // Blue color
         btnPeek.setForeground(Color.WHITE);
-        btnPeek.setBounds(300, 165, 100, 30);
+        btnPeek.setBounds(300, 165, 100, 40);
         contentPane.add(btnPeek);
 
         // Display button
@@ -109,7 +109,7 @@ public class Stack extends JFrame {
         btnDisplay.setFont(new Font("Tahoma", Font.BOLD, 14));
         btnDisplay.setBackground(new Color(30, 144, 255)); // Blue color
         btnDisplay.setForeground(Color.WHITE);
-        btnDisplay.setBounds(160, 216, 100, 30);
+        btnDisplay.setBounds(160, 216, 100, 37);
         contentPane.add(btnDisplay);
 
         // Back button
@@ -117,7 +117,7 @@ public class Stack extends JFrame {
         btnBack.setFont(new Font("Tahoma", Font.BOLD, 14));
         btnBack.setBackground(new Color(255, 99, 71)); // Red shade
         btnBack.setForeground(Color.WHITE);
-        btnBack.setBounds(312, 308, 88, 30);
+        btnBack.setBounds(323, 320, 88, 30);
         contentPane.add(btnBack);
 
         // Action listeners for buttons

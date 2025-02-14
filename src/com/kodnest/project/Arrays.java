@@ -10,6 +10,7 @@ import java.awt.Font;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JTextField;
+
 import java.awt.Color;
 import javax.swing.ImageIcon;
 
@@ -64,7 +65,7 @@ public class Arrays extends JFrame {
         // Label to display the selected message
         JLabel lblSelectedMessage = new JLabel("Welcome To Array :");
         lblSelectedMessage.setBounds(121, 0, 201, 37);
-        lblSelectedMessage.setFont(new Font("Tahoma", Font.BOLD, 17));
+        lblSelectedMessage.setFont(new Font("Tahoma", Font.BOLD, 18));
         contentPane.add(lblSelectedMessage);
 
         // Label for size
@@ -81,8 +82,8 @@ public class Arrays extends JFrame {
         contentPane.add(lblPosition);
 
         // Create the Insert button
-        btnInsert = new JButton("Insert");
-        btnInsert.setBounds(21, 139, 120, 39);
+        btnInsert = new JButton("INSERT");
+        btnInsert.setBounds(21, 139, 120, 37);
         btnInsert.setFont(new Font("Tahoma", Font.BOLD, 14));
         btnInsert.setBackground(new Color(34, 139, 34)); // Green color
         btnInsert.setForeground(Color.WHITE);
@@ -105,7 +106,7 @@ public class Arrays extends JFrame {
         
         JButton btnCreate = new JButton("CREATE");
         btnCreate.setBounds(256, 52, 120, 23);
-        btnCreate.setFont(new Font("Tahoma", Font.BOLD, 17));
+        btnCreate.setFont(new Font("Tahoma", Font.BOLD, 14));
         btnCreate.setBackground(new Color(0, 128, 0)); // Green color
         btnCreate.setForeground(Color.WHITE);
         contentPane.add(btnCreate);
@@ -131,14 +132,14 @@ public class Arrays extends JFrame {
         contentPane.add(textField_2);
         textField_2.setColumns(10);
         
-        JButton btnDelete = new JButton("Delete");
+        JButton btnDelete = new JButton("DELETE");
         btnDelete.setFont(new Font("Tahoma", Font.BOLD, 14));
         btnDelete.setBounds(170, 140, 98, 37);
         btnDelete.setBackground(new Color(255, 69, 0)); // Red shade
         btnDelete.setForeground(Color.WHITE);
         contentPane.add(btnDelete);
         
-        JButton btnDisplay = new JButton("Display");
+        JButton btnDisplay = new JButton("DISPLAY");
         btnDisplay.setFont(new Font("Tahoma", Font.BOLD, 14));
         btnDisplay.setBounds(302, 140, 98, 37);
         btnDisplay.setBackground(new Color(30, 144, 255)); // Blue color
@@ -154,7 +155,7 @@ public class Arrays extends JFrame {
         
         textField_3 = new JTextField();
         textField_3.setFont(new Font("Times New Roman", Font.BOLD, 18));
-        textField_3.setBounds(21, 205, 305, 30);
+        textField_3.setBounds(10, 205, 316, 30);
         contentPane.add(textField_3);
         textField_3.setColumns(10);
 

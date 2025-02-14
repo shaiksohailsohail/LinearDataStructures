@@ -59,7 +59,7 @@ public class LinearDataStructersHome extends JFrame {
         lblMessage.setFont(new Font("Perpetua Titling MT", Font.BOLD, 16));
         contentPane.add(lblMessage);
 
-        JButton btnArray = new JButton("Array");
+        JButton btnArray = new JButton("ARRAY");
         btnArray.setBounds(50, 61, 120, 30);
         btnArray.setFont(new Font("Tahoma", Font.BOLD, 14));
         btnArray.setBackground(new Color(70, 130, 180)); // Steel blue button background
@@ -77,7 +77,7 @@ public class LinearDataStructersHome extends JFrame {
 
 
      // Button for Stack
-        JButton btnStack = new JButton("Stack");
+        JButton btnStack = new JButton("STACK");
         btnStack.setBounds(231, 61, 120, 30);
         btnStack.setFont(new Font("Tahoma", Font.BOLD, 14));
         btnStack.setBackground(new Color(255, 99, 71)); // Tomato color button background
@@ -95,7 +95,7 @@ public class LinearDataStructersHome extends JFrame {
 
 
      // Button for Queue
-        JButton btnQueue = new JButton("Queue");
+        JButton btnQueue = new JButton("QUEUE");
         btnQueue.setBounds(50, 120, 120, 30);
         btnQueue.setFont(new Font("Tahoma", Font.BOLD, 14));
         btnQueue.setBackground(new Color(34, 139, 34)); // Forest green button background
@@ -113,8 +113,8 @@ public class LinearDataStructersHome extends JFrame {
 
 
      // Button for Circular Queue
-        JButton btnCircularQueue = new JButton("Circular Queue");
-        btnCircularQueue.setBounds(131, 171, 161, 30);
+        JButton btnCircularQueue = new JButton("CIRCULAR QUEUE");
+        btnCircularQueue.setBounds(131, 171, 172, 30);
         btnCircularQueue.setFont(new Font("Tahoma", Font.BOLD, 14));
         btnCircularQueue.setBackground(new Color(255, 165, 0)); // Orange button background
         btnCircularQueue.setForeground(Color.WHITE); // White text
@@ -130,8 +130,8 @@ public class LinearDataStructersHome extends JFrame {
         });
 
      // Button for LinkedList
-        JButton btnLinkedList = new JButton("LinkedList");
-        btnLinkedList.setBounds(231, 120, 120, 30);
+        JButton btnLinkedList = new JButton("LINKEDLIST");
+        btnLinkedList.setBounds(231, 120, 131, 30);
         btnLinkedList.setFont(new Font("Tahoma", Font.BOLD, 14));
         btnLinkedList.setBackground(new Color(255, 223, 0)); // Yellow button background
         btnLinkedList.setForeground(Color.WHITE); // White text
