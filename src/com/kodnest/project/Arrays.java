@@ -41,10 +41,10 @@ public class Arrays extends JFrame {
         EventQueue.invokeLater(new Runnable() {
             public void run() {
                 try {
-                    Arrays frame = new Arrays("No message");
+                    Arrays frame = new Arrays("No messages");
                     frame.setVisible(true);
                 } catch (Exception e) {
-                    e.printStackTrace();
+                 e.printStackTrace();
                 }
             }
         });
@@ -172,7 +172,9 @@ public class Arrays extends JFrame {
         });
 
         // Action listener for the Create button
-        btnCreate.addActionListener(new ActionListener() {
+        // Action listener for the Create button
+
+        btnCreate.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e) {
                 createArray();
             }
