@@ -98,7 +98,7 @@ public class LinearDataStructersHome extends JFrame {
         JButton btnQueue = new JButton("QUEUE");
         btnQueue.setBounds(50, 120, 120, 30);
         btnQueue.setFont(new Font("Tahoma", Font.BOLD, 14));
-        btnQueue.setBackground(new Color(34, 139, 34)); // Forest green button background
+        btnQueue.setBackground(new Color(34, 139, 34)); // green button background
         btnQueue.setForeground(Color.WHITE); // White text
         contentPane.add(btnQueue);
         btnQueue.addActionListener(new ActionListener() {
@@ -106,7 +106,7 @@ public class LinearDataStructersHome extends JFrame {
                 // Open Queue.java frame and pass the message
                 Queue queueFrame = new Queue("You selected: Queue");
                 queueFrame.setVisible(true);
-                // Optionally, hide the current window
+                // Optionally,hide the current window
                 setVisible(false);
             }
         });
