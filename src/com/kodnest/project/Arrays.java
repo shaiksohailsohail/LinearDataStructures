@@ -41,7 +41,7 @@ public class Arrays extends JFrame {
         EventQueue.invokeLater(new Runnable() {
             public void run() {
                 try {
-                    Arrays frame = new Arrays("No messages");
+                    Arrays frame = new Arrays("No message");
                     frame.setVisible(true);
                 } catch (Exception e) {
                  e.printStackTrace();
